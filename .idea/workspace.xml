@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="Tarea1_Grupo1_PW2:war" />
       <artifact name="Tarea1_Grupo1_PW2:war exploded" />
     </artifacts-to-build>
   </component>
@@ -11,15 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a58aef27-62f4-45dc-ac5c-b35dc46f589e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/binario.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/binario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hipotenusa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hipotenusa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/numeros.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/numeros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resultado.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resultado.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/binario.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/binario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/hipotenusa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/hipotenusa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/numeros.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/numeros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/resultado.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/resultado.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +61,12 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 11.0.22.executor": "Debug",
+    "Tomcat Server.Tomcat 11.0.22.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Documentos/Jennifer/2026/Segundo Periodo/PW2/Tarea1_Grupo1_PW2/pom.xml",
+    "last_opened_file_path": "C:/Documentos/Jennifer/2026/Segundo Periodo/PW2/Tarea1_Grupo1_PW2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -213,7 +205,8 @@
       <updated>1780952641866</updated>
       <workItem from="1780952643361" duration="204000" />
       <workItem from="1780960277123" duration="818000" />
-      <workItem from="1780961128272" duration="6661000" />
+      <workItem from="1780961128272" duration="6931000" />
+      <workItem from="1781034556066" duration="302000" />
     </task>
     <servers />
   </component>
