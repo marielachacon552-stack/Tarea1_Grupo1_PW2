@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 
 
 @WebServlet(name = "ServletBinarios", value = "/servlet-binarios")
-public class ServletBinarios extends HttpServlet {
+public class BinarioServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
