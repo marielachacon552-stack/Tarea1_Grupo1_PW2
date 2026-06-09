@@ -10,9 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a58aef27-62f4-45dc-ac5c-b35dc46f589e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a58aef27-62f4-45dc-ac5c-b35dc46f589e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +78,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Documentos\Jennifer\2026\Segundo Periodo\PW2\Tarea1_Grupo1_PW2\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationStatuses">
       <map>
@@ -206,7 +209,7 @@
       <workItem from="1780952643361" duration="204000" />
       <workItem from="1780960277123" duration="818000" />
       <workItem from="1780961128272" duration="6931000" />
-      <workItem from="1781034556066" duration="302000" />
+      <workItem from="1781034556066" duration="524000" />
     </task>
     <servers />
   </component>
