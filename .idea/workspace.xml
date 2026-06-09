@@ -10,23 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a58aef27-62f4-45dc-ac5c-b35dc46f589e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HipotenusaServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MayorMenorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/binario.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hipotenusa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/estilos-binario.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/estilos-hipotenusa.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/estilos-numeros.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/estilos-resultado.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Tarea1_Grupo1_PW2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServletBinarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarioServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarioServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HipotenusaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HipotenusaServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +23,16 @@
     <persistenceIdMap>
       <entry key="_C:/Documentos/Jennifer/2026/Segundo Periodo/PW2/Tarea1_Grupo1_PW2" value="3Es1oz7sZCEdWwVdJ239VopsjVF" />
     </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -201,7 +197,7 @@
       <updated>1780952641866</updated>
       <workItem from="1780952643361" duration="204000" />
       <workItem from="1780960277123" duration="818000" />
-      <workItem from="1780961128272" duration="5665000" />
+      <workItem from="1780961128272" duration="6027000" />
     </task>
     <servers />
   </component>

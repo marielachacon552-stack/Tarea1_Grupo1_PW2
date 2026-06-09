@@ -1,1 +1,3 @@
-ServletBinarios.class
+BinarioServlet.class
+HipotenusaServlet.class
+MayorMenorServlet.class
