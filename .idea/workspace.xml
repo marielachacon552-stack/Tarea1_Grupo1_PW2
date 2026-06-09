@@ -11,8 +11,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a58aef27-62f4-45dc-ac5c-b35dc46f589e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarioServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HipotenusaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HipotenusaServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/binario.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/binario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hipotenusa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hipotenusa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/numeros.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/numeros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resultado.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resultado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/binario.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/binario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/hipotenusa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/hipotenusa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/numeros.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/numeros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/resultado.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tarea1_Grupo1_PW2-1.0-SNAPSHOT/WEB-INF/resultado.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +69,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 11.0.22.executor": "Run",
+    "Tomcat Server.Tomcat 11.0.22.executor": "Debug",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -74,6 +81,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.applicationServers",
     "vue.rearranger.settings.migration": "true"
   }
@@ -98,6 +108,11 @@
         <artifact name="Tarea1_Grupo1_PW2:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/Tarea1_Grupo1_PW2_war_exploded" />
+          </settings>
+        </artifact>
+        <artifact name="Tarea1_Grupo1_PW2:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Tarea1_Grupo1_PW2_war" />
           </settings>
         </artifact>
       </deployment>
@@ -176,6 +191,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Tarea1_Grupo1_PW2:war exploded" />
+          <artifact name="Tarea1_Grupo1_PW2:war" />
         </option>
       </method>
     </configuration>
@@ -197,7 +213,7 @@
       <updated>1780952641866</updated>
       <workItem from="1780952643361" duration="204000" />
       <workItem from="1780960277123" duration="818000" />
-      <workItem from="1780961128272" duration="6027000" />
+      <workItem from="1780961128272" duration="6661000" />
     </task>
     <servers />
   </component>

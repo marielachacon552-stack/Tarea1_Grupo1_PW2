@@ -1,10 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado - Operación</title>
+    <link rel="stylesheet" href="css/estilos-resultado.css">
 </head>
 <body>
+<div class="container">
+    <div class="header-info">
+        <h1>Operación Realizada</h1>
+        <p id="titleTarea">Operación</p>
+        <div class="grupo-info">
+            <h3>Integrantes del Grupo:</h3>
+            <ul>
+                <li><strong>Juan David Rivera</strong> - 202410060777</li>
+                <li><strong>Juan Carlos Lopez</strong> - 241083029</li>
+                <li><strong>Marlon Benjamin Matute</strong> - 202320010387</li>
+                <li><strong>Paola Abigail Peña </strong> - 202330080046</li>
+                <li><strong>Rigoberto Raudales Sevilla</strong> - 201730010089</li>
+                <li><strong>Jennifer Mariela Marquez</strong> - 202330010411</li>
+            </ul>
+        </div>
+    </div>
 
+
+    <div class="operacion-realizada">
+
+        <table class="resultado-tabla" id="resultadoTabla">
+            <thead>
+            <tr>
+                <th>📥 Entrada</th>
+                <th>📤 Salida</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="entrada-cell" id="entradaCell">-</td>
+                <td class="salida-cell" id="salidaCell"><span class="salida-badge">-</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="button-group">
+        <button class="btn-calcular" id="btnCalcular">🔄 Calcular Otro</button>
+        <button class="btn-volver" onclick="location.href='index.html'">🏠 Volver</button>
+    </div>
+</div>
+
+<script>
+    function getQueryParams() {
+        const params = {};
+        const search = window.location.search.substring(1);
+        if (!search) return params;
+        const pairs = search.split('&');
+        for (const p of pairs) {
+            const [k, v] = p.split('=');
+            params[decodeURIComponent(k.replace(/\+/g, ' '))] = v ? decodeURIComponent(v.replace(/\+/g, ' ')) : '';
+        }
+        return params;
+    }
+
+    (function() {
+        const params = getQueryParams();
+        const entradaRaw = params['entrada'] || '';
+        const salidaRaw = params['salida'] || '';
+        const tareaRaw = params['tarea'] || 'Operación';
+
+
+        const titleTarea = document.getElementById('titleTarea');
+        if (titleTarea) {
+            titleTarea.textContent = '📋 Servlet - ' + tareaRaw.trim();
+        }
+
+
+        const entradaHtml = entradaRaw.split('|').map(s => s.trim()).join('<br>');
+        const salidaHtml = salidaRaw.trim();
+
+        const entradaCell = document.getElementById('entradaCell');
+        const salidaCell = document.getElementById('salidaCell');
+
+        entradaCell.innerHTML = entradaHtml || '—';
+        const badge = salidaCell.querySelector('.salida-badge');
+        if (badge) badge.textContent = salidaHtml || '—';
+
+
+        const btnCalcular = document.getElementById('btnCalcular');
+        const volver = params['volver'] || '';
+        if (volver) {
+            btnCalcular.addEventListener('click', function() { location.href = volver; });
+        } else {
+            btnCalcular.addEventListener('click', function() { history.back(); });
+        }
+    })();
+</script>
 </body>
 </html>

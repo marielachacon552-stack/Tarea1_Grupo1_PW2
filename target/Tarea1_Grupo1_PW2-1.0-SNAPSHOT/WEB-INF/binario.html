@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor Binario</title>
+    <link rel="stylesheet" href="css/estilos-binario.css">
 </head>
 <body>
+<div class="container">
+    <h1>🔄 Convertidor Binario ↔ Decimal</h1>
+    <form method="post" action="binarios" id="conversionForm">
+        <div class="form-group">
+            <label class="form-label">Tipo de conversión:</label>
+            <div class="radio-options">
+                <label class="radio-item"><input type="radio" name="tipo" value="bin2dec" checked> 📊 Binario a Decimal</label>
+                <label class="radio-item"><input type="radio" name="tipo" value="dec2bin"> 🔢 Decimal a Binario</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="valor">Ingresa el valor:</label>
+            <input type="text" id="valor" name="valor" placeholder="Ej: 1010" required>
+            <div class="input-hint" id="hint">Solo se aceptan números binarios (0 y 1)</div>
+        </div>
+        <input type="submit" value="Convertir">
+    </form>
+    <a href="index.html" class="back-link">← Volver al menú principal</a>
+</div>
 
+<script>
+    function actualizarPlaceholder() {
+        const tipoBin = document.querySelector('input[name="tipo"]').checked;
+        const input = document.getElementById('valor');
+        const hint = document.getElementById('hint');
+        if (document.querySelector('input[value="bin2dec"]').checked) {
+            input.placeholder = 'Ej: 1010';
+            hint.textContent = '✓ Solo se aceptan números binarios (0 y 1)';
+        } else {
+            input.placeholder = 'Ej: 10';
+            hint.textContent = '✓ Solo se aceptan números decimales (0-9)';
+        }
+        input.value = '';
+    }
+    document.querySelectorAll('input[name="tipo"]').forEach(r => r.addEventListener('change', actualizarPlaceholder));
+
+
+    const valorInput = document.getElementById('valor');
+    valorInput.addEventListener('input', function() {
+        const valor = this.value;
+        if (document.querySelector('input[value="bin2dec"]').checked) {
+            if (!/^[01]*$/.test(valor)) { this.style.borderColor = '#f44336'; document.getElementById('hint').textContent = '❌ Solo se permiten 0 y 1'; }
+            else { this.style.borderColor = '#4CAF50'; document.getElementById('hint').textContent = '✓ Formato correcto'; }
+        } else {
+            if (!/^[0-9]*$/.test(valor)) { this.style.borderColor = '#f44336'; document.getElementById('hint').textContent = '❌ Solo se permiten números'; }
+            else { this.style.borderColor = '#4CAF50'; document.getElementById('hint').textContent = '✓ Formato correcto'; }
+        }
+    });
+</script>
 </body>
 </html>
